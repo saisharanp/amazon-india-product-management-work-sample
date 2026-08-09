@@ -1,8 +1,8 @@
-# Stage 4 — Project-Management Migration
+# GitHub Product-Management Execution Index
 
 **System of record:** GitHub Issues in the private repository
 **Repository:** https://github.com/saisharanp/amazon-india-product-management-work-sample
-**Purpose:** Convert the Stage 4 spreadsheet backlog into actionable, assigned tickets with labels and acceptance summaries.
+**Purpose:** Convert the Stage 4 backlog, validation approvals, and launch-readiness work into one actionable issue queue with labels and acceptance summaries.
 
 ## Migration decision
 
@@ -33,9 +33,20 @@ No Linear, Jira, Asana, or Monday connector was available in this session. GitHu
 - [V03 — Approve controlled pilot readiness](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/14)
 - [V04 — Keep scale gate blocked](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/17)
 
+## Stage 6 launch and scale issues
+
+| Issue | Workstream | Exit evidence | Status |
+|---|---|---|---|
+| [S01 — Complete launch readiness checklist](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/18) | Launch readiness | Signed checklist, policy/source-of-truth review, rollback drill | Open |
+| [S02 — Instrument real pilot metrics and alerts](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/19) | Real pilot instrumentation | Confirmed-resolution-within-SLA primary metric, dashboard, event QA, cohort and baseline definitions | Open |
+| [S03 — Run daily pilot review and incident cadence](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/20) | Operating review | Daily review log, incident record, support reconciliation | Open |
+| [S04 — Produce Day-7 and Day-30 evidence readout](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/21) | Post-launch readout | Day 1, Day 7, and Day 30 evidence package | Open |
+| [S05 — Keep broad scale blocked until real evidence passes](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/22) | Scale decision | Approved decision record; scale stays blocked until criteria pass | Open |
+
 ## Operating usage
 
 - The Stage 4 workbook remains the editable prioritization model and source for the issue titles.
 - GitHub Issues is the execution queue for status, assignee, labels, discussion, and acceptance tracking.
 - Figma is the design-review source for customer-facing screen decisions.
 - Stage 5 approval issues must be closed or explicitly revised before the next stage begins.
+- Stage 6 issues remain open until real evidence supports the next operating or scale decision.
