@@ -1,0 +1,13 @@
+case_id,arm,region,prime,order_value_inr,event_conflict,recovery_option,eligible,repeat_contacts,resolution_hours,understood_next,incorrect_recovery,sla_breach,support_contacts
+SYN-001,Baseline,North,Yes,2499,No,REFUND,Yes,3,52,0,0,1,3
+SYN-002,Baseline,North,No,899,No,REPLACEMENT,Yes,2,41,0,0,1,2
+SYN-003,Baseline,West,Yes,4999,Yes,REFUND,Yes,4,72,0,0,1,4
+SYN-004,Baseline,South,No,1799,No,DELIVERY_RETRY,Yes,2,30,0,0,0,2
+SYN-005,Baseline,East,Yes,3299,Yes,REFUND,Yes,3,64,0,0,1,3
+SYN-006,Baseline,North,Yes,1299,No,REFUND,Yes,1,28,0,0,0,1
+SYN-007,Proposed,North,Yes,2499,No,REFUND,Yes,1,26,1,0,0,1
+SYN-008,Proposed,North,No,899,No,REPLACEMENT,Yes,1,20,1,0,0,1
+SYN-009,Proposed,West,Yes,4999,Yes,SUPPORT_ESCALATION,Yes,2,49,1,0,1,2
+SYN-010,Proposed,South,No,1799,No,DELIVERY_RETRY,Yes,0,16,1,0,0,0
+SYN-011,Proposed,East,Yes,3299,No,REFUND,Yes,1,31,1,0,0,1
+SYN-012,Proposed,North,Yes,1299,No,REFUND,Yes,0,18,1,0,0,0
