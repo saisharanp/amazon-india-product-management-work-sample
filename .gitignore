@@ -12,3 +12,5 @@ stage-4/*.inspect.ndjson
 stage-4/*_preview.png
 stage-5/*.inspect.ndjson
 stage-5/*_preview.png
+stage-6/*.inspect.ndjson
+stage-6/*_preview.png

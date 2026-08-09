@@ -26,4 +26,4 @@ The synthetic replay is a portfolio worksample that demonstrates analysis mechan
 
 ## Next-stage gate
 
-Stage 6 may begin only after V01–V03 are approved and the controlled pilot produces a real evidence package. V04 remains blocked until the pilot readout is complete.
+The Stage 6 launch-readiness package may be reviewed now, but customer exposure still requires V01–V03 approval, a real baseline, and the completed readiness checklist. V04 remains blocked until the controlled pilot produces a real evidence package and the final decision gate is signed.
