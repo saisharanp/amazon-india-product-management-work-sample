@@ -4,6 +4,9 @@
 **Feature:** Unified exception resolution — delivered but not received
 **Status:** Awaiting stakeholder review
 
+**Figma review:** https://www.figma.com/design/BL3cvaVa3Yzxwv8Nsu37Wu
+**GitHub approval queue:** https://github.com/saisharanp/amazon-india-product-management-work-sample/issues
+
 ## Approval decisions
 
 | Decision ID | Decision | Recommendation | Reviewer decision |
