@@ -6,3 +6,5 @@ stage-1/*.inspect.ndjson
 stage-1/*_preview.png
 stage-2/*.inspect.ndjson
 stage-2/*_preview.png
+stage-3/*.inspect.ndjson
+stage-3/*_preview.png
