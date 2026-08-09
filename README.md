@@ -23,6 +23,7 @@ The repository contains reviewable Markdown, CSV, XLSX, PDF, Figma, and GitHub a
 ## Core links
 
 - [Figma prototype](https://www.figma.com/design/BL3cvaVa3Yzxwv8Nsu37Wu)
+- [Medium case study](https://medium.com/p/196456d9d96e)
 - [GitHub project issues](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues)
 - [Product delivery PRD](stage-04-product-delivery/40_prd_unified_exception_resolution.md)
 - [Launch and scale decision gate](stage-06-launch-scale/63_final_product_decision_gate.md)
