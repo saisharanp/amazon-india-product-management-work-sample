@@ -12,18 +12,18 @@ No Linear, Jira, Asana, or Monday connector was available in this session. GitHu
 
 | Requirement | GitHub issue | Labels |
 |---|---|---|
-| UR-01 Surface exception banner | [Issue #3](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/3) | stage-4, mvp, must |
-| UR-02 Create one case | [Issue #1](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/1) | stage-4, mvp, must |
-| UR-03 Normalized timeline | [Issue #9](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/9) | stage-4, mvp, must |
-| UR-04 Owner and next update | [Issue #7](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/7) | stage-4, mvp, must |
-| UR-05 Recovery options | [Issue #5](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/5) | stage-4, mvp, must |
-| UR-06 Duplicate recovery protection | [Issue #6](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/6) | stage-4, mvp, must |
-| UR-07 Confirmed resolution | [Issue #10](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/10) | stage-4, mvp, must |
-| UR-08 Human support routing | [Issue #11](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/11) | stage-4, mvp, must |
-| UR-09 Notification consistency | [Issue #2](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/2) | stage-4, mvp |
-| UR-10 Accessibility/localization | [Issue #12](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/12) | stage-4, mvp, must |
-| UR-11 Measurement events | [Issue #8](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/8) | stage-4, mvp, must |
-| UR-12 Audit and parity | [Issue #4](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/4) | stage-4, mvp, must |
+| UR-01 Surface exception banner | [Issue #3](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/3) | stage-04-product-delivery, mvp, must |
+| UR-02 Create one case | [Issue #1](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/1) | stage-04-product-delivery, mvp, must |
+| UR-03 Normalized timeline | [Issue #9](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/9) | stage-04-product-delivery, mvp, must |
+| UR-04 Owner and next update | [Issue #7](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/7) | stage-04-product-delivery, mvp, must |
+| UR-05 Recovery options | [Issue #5](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/5) | stage-04-product-delivery, mvp, must |
+| UR-06 Duplicate recovery protection | [Issue #6](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/6) | stage-04-product-delivery, mvp, must |
+| UR-07 Confirmed resolution | [Issue #10](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/10) | stage-04-product-delivery, mvp, must |
+| UR-08 Human support routing | [Issue #11](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/11) | stage-04-product-delivery, mvp, must |
+| UR-09 Notification consistency | [Issue #2](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/2) | stage-04-product-delivery, mvp |
+| UR-10 Accessibility/localization | [Issue #12](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/12) | stage-04-product-delivery, mvp, must |
+| UR-11 Measurement events | [Issue #8](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/8) | stage-04-product-delivery, mvp, must |
+| UR-12 Audit and parity | [Issue #4](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/4) | stage-04-product-delivery, mvp, must |
 
 ## Stage 5 approval issues
 

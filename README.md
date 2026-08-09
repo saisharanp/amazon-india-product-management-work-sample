@@ -10,9 +10,9 @@ The current recommendation is to prepare a controlled pilot for eligible custome
 
 ## Start here
 
-1. [Final executive readout](stage-7/70_executive_readout.md)
-2. [Portfolio case study](stage-7/71_portfolio_case_study.md)
-3. [Artifact index and tool map](stage-7/72_artifact_index_and_tools_map.md)
+1. [Final executive readout](stage-07-final-handoff/70_executive_readout.md)
+2. [Portfolio case study](stage-07-final-handoff/71_portfolio_case_study.md)
+3. [Artifact index and tool map](stage-07-final-handoff/72_artifact_index_and_tools_map.md)
 
 ## Lifecycle
 
@@ -24,5 +24,5 @@ The repository contains reviewable Markdown, CSV, XLSX, PDF, Figma, and GitHub a
 
 - [Figma prototype](https://www.figma.com/design/BL3cvaVa3Yzxwv8Nsu37Wu)
 - [GitHub project issues](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues)
-- [Stage 4 PRD](stage-4/40_prd_unified_exception_resolution.md)
-- [Stage 6 final decision gate](stage-6/63_final_product_decision_gate.md)
+- [Product delivery PRD](stage-04-product-delivery/40_prd_unified_exception_resolution.md)
+- [Launch and scale decision gate](stage-06-launch-scale/63_final_product_decision_gate.md)
