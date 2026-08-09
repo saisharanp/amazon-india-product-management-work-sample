@@ -26,7 +26,8 @@ Use this template for the controlled pilot and any extended exposure. Replace pl
 
 ## Day 7 review
 
-- Primary outcome changes: `[actuals versus baseline/control]`
+- Confirmed resolution within promised SLA: `[actual versus baseline/control]`
+- Secondary outcome changes: repeat contacts, confirmed-resolution time, recovery completion, and comprehension `[actuals]`
 - Understood-next rate: `[actual]`
 - Recovery completion: `[actual]`
 - Incorrect recovery / false final / duplicate financial action: `[counts]`

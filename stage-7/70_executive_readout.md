@@ -1,7 +1,7 @@
 # Final Executive Readout — Unified Exception Resolution
 
 **Product:** Amazon India
-**Scope:** Delivered but not received exception
+**Scope:** Customer-reported delivered-but-not-received exception
 **Portfolio status:** End-stage product-management worksample; broad scale intentionally blocked
 
 ## Executive decision
@@ -14,14 +14,15 @@ When an order is marked delivered but the customer has not received it, the cust
 
 ## Product recommendation
 
-Add a unified exception-resolution layer to the existing order-detail experience:
+Add a narrow delivered-but-not-received resolution layer to the existing order-detail experience:
 
 - one customer-readable timeline;
 - one `case_id` and accountable owner/queue;
 - one next-update promise;
-- eligible recovery choices;
+- policy-validated recovery choices or human escalation;
 - clear refund, replacement, or delivery confirmation;
-- shared state for customer, support, delivery, payments, and analytics.
+- shared state for customer, support, delivery, payments, and analytics;
+- no independent automated financial execution in the first pilot.
 
 ## Why this opportunity
 
@@ -31,9 +32,13 @@ The directional public-feedback sample repeatedly surfaced delivery-status accur
 
 **Public feedback → coded themes → personas/journey → opportunity tree and scoring → concept selection → Figma wireframes → PRD and backlog → validation protocol → pilot scorecard → launch/rollback gate.**
 
+## Pilot boundary
+
+Start with eligible cases that have reliable event linkage in one approved delivery region or fulfilment context, balanced for Prime/non-Prime representation. Exclude fraud investigations, unresolved identity/payment risk, high-value cases above the approved policy threshold, repeated-claim cases, and policy ambiguity from automated recovery.
+
 ## Decision criteria
 
-Scale is eligible only after real pilot evidence shows improvement in repeat contacts, confirmed-resolution time, and recovery completion without incorrect recovery, false final outcomes, duplicate financial actions, unacceptable source conflicts, SLA breaches, or support-capacity harm.
+Scale is eligible only after real pilot evidence shows improvement in confirmed resolution within the promised SLA, without regression in repeat contacts or comprehension and without incorrect recovery, false final outcomes, duplicate financial actions, unacceptable source conflicts, SLA breaches, or support-capacity harm.
 
 ## Current risks
 

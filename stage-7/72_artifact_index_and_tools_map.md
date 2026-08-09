@@ -2,6 +2,8 @@
 
 This index is the reviewer’s navigation layer. Each stage has a decision, a reviewable artifact, and an explicit approval gate.
 
+The cross-stage assumptions and final decisions applied after stress-testing are recorded in `docs/superpowers/specs/2026-08-09-unified-exception-resolution-grill-decisions.md`.
+
 ## Lifecycle index
 
 | Stage | Product decision | Primary worksamples |

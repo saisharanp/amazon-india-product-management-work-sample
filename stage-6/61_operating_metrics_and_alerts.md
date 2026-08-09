@@ -11,10 +11,11 @@
 
 | Metric | Type | Definition | Target / threshold | Action if breached |
 |---|---|---|---|---|
-| Repeat contacts per case | Primary | Support contacts after the first exception case is opened | Improve versus baseline | Iterate if no meaningful improvement |
-| Confirmed-resolution time | Primary | Hours from case creation to authoritative outcome | Improve versus baseline | Iterate if slower without a safety benefit |
+| Confirmed resolution within promised SLA | Primary | Share of eligible cases with an authoritative outcome by the published SLA | Improve versus baseline or holdout | Hold expansion if no meaningful improvement |
+| Repeat contacts per case | Secondary | Support contacts after the first exception case is opened | Improve versus baseline | Iterate if no meaningful improvement |
+| Confirmed-resolution time | Secondary | Hours from case creation to authoritative outcome | Improve versus baseline | Iterate if slower without a safety benefit |
 | Understood-next rate | Customer | Share of sampled customers who can identify the next action | ≥ 75% in research/pilot sample | Fix copy or flow before expansion |
-| Recovery completion rate | Customer | Eligible customers completing the chosen safe recovery path | Improve versus baseline | Investigate eligibility, trust, or UX failure |
+| Recovery completion rate | Secondary customer | Eligible customers completing the chosen safe recovery path | Improve versus baseline | Investigate eligibility, trust, or UX failure |
 | Incorrect recovery rate | Guardrail | Recovery outcome conflicts with policy or authoritative truth | 0 tolerated | Pause and investigate immediately |
 | False final outcome | Guardrail | Customer is told the issue is final before authoritative confirmation | 0 tolerated | P0 rollback |
 | Duplicate financial action | Guardrail | More than one refund/credit/replacement action for the same case | 0 tolerated | P0 rollback and reconciliation |
@@ -40,6 +41,6 @@ At minimum, segment by delivery region, promise type, seller/fulfilment path, pa
 
 1. Did the customer get a more truthful and actionable explanation?
 2. Did the proposed recovery match policy and the authoritative outcome?
-3. Did the feature reduce repeat contacts without shifting work to Support?
+3. Did the feature improve confirmed resolution within the promised SLA without shifting work to Support?
 4. Are missing events or conflicting sources large enough to make the result unreliable?
 5. Is there a safe, tested rollback path for every exposed case?

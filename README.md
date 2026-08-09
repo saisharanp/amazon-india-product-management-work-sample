@@ -6,7 +6,7 @@ A complete product-management lifecycle worksample for **unified exception resol
 
 The project turns directional public feedback into a traceable product recommendation, editable Figma flows, delivery-ready requirements, validation mechanics, launch operations, and a final scale-decision gate.
 
-The current recommendation is to prepare a controlled pilot while keeping broad scale blocked until real evidence is collected. No live Amazon launch or Amazon internal performance is claimed.
+The current recommendation is to prepare a controlled pilot for eligible customer-reported delivered-but-not-received cases while keeping broad scale blocked until real evidence is collected. No live Amazon launch or Amazon internal performance is claimed.
 
 ## Start here
 
@@ -14,6 +14,7 @@ The current recommendation is to prepare a controlled pilot while keeping broad 
 2. [Portfolio case study](stage-7/71_portfolio_case_study.md)
 3. [Artifact index and tool map](stage-7/72_artifact_index_and_tools_map.md)
 4. [Final review checklist](stage-7/73_final_review_checklist.md)
+5. [Stress-test decision record](docs/superpowers/specs/2026-08-09-unified-exception-resolution-grill-decisions.md)
 
 ## Lifecycle
 

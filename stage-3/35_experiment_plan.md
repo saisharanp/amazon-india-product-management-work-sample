@@ -1,6 +1,6 @@
 # Stage 3 — Experiment Plan
 
-**Solution direction:** Exception timeline and recovery hub  
+**Solution direction:** Delivered-but-not-received exception timeline and recovery hub
 **Status:** Awaiting approval
 
 ## Validation objective
@@ -15,7 +15,7 @@ Determine whether a unified exception timeline and recovery hub improves custome
 | E2 — Recovery choice | Can customers choose the correct recovery path? | 8–10 task-based sessions with delivery/refund scenarios | Keep, simplify, or add human escalation |
 | E3 — Agent alignment | Can support agents use the same case state? | 5–7 agent walkthroughs | Confirm operational feasibility |
 | E4 — Historical simulation | Would the proposed state have changed prior outcomes? | Replay anonymized exception cases | Estimate addressable volume |
-| E5 — Controlled pilot | Does the experience reduce repeat contacts and improve trust? | Limited rollout with treatment/control or pre/post comparison | Scale, iterate, or stop |
+| E5 — Controlled pilot | Does the experience increase confirmed resolution within SLA without unsafe recovery or support burden? | Limited rollout with treatment/control or pre/post comparison | Scale, iterate, or stop |
 
 ## E1/E2 usability test
 
@@ -24,12 +24,12 @@ Determine whether a unified exception timeline and recovery hub improves custome
 - Frequent Amazon India shoppers
 - Mix of Prime and non-Prime
 - Mix of high-value, remote-area, and time-sensitive purchase experience
-- Include participants who have experienced a delivery or refund exception
+- Include participants who have experienced a delivered-but-not-received exception; use refund scenarios only to test explanation of a policy-validated outcome.
 
 ### Tasks
 
-1. Find out why the order is not arriving.
-2. Decide whether to wait, request replacement, or request refund.
+1. Report non-receipt from an order marked delivered and explain what happens next.
+2. Decide whether to continue investigation, request an eligible recovery, or contact human support.
 3. Find who owns the case.
 4. Find the next update date.
 5. Explain what will happen to the money or replacement.
@@ -58,10 +58,10 @@ Validate:
 Use anonymized cases across:
 
 - delivered but not received;
-- failed delivery;
-- damaged item;
-- cancelled order and refund pending;
-- replacement unavailable.
+- stale or conflicting delivery evidence;
+- recovery eligibility changes between display and confirmation;
+- high-risk case requiring human escalation;
+- duplicate case or duplicate action retry.
 
 Measure:
 
@@ -74,12 +74,13 @@ Measure:
 
 ### Primary
 
-- Repeat contacts per exception case
-- Time to confirmed resolution
-- Recovery completion rate
+- Confirmed resolution within promised SLA
 
 ### Secondary
 
+- Repeat contacts per exception case
+- Time to confirmed resolution
+- Recovery completion rate
 - First-contact resolution
 - Transfer count
 - Post-resolution CSAT
@@ -88,7 +89,10 @@ Measure:
 
 ### Guardrails
 
-- Incorrect refund/replacement decisions
+- Incorrect recovery decisions
+- False final outcome
+- Duplicate financial action
+- Source conflict rate
 - False-positive exception cases
 - Support handle time
 - SLA breaches
@@ -110,7 +114,7 @@ Measure:
 
 ## Decision rules
 
-- **Advance:** usability thresholds pass, no critical safety/policy issue, and pilot shows improved repeat-contact or comprehension signal.
+- **Advance:** usability thresholds pass, no critical safety/policy issue, and pilot shows improved confirmed-resolution-within-SLA signal.
 - **Iterate:** customers understand the concept but struggle with recovery choice, ownership, or refund detail.
 - **Pause:** event accuracy is unreliable, recovery decisions are unsafe, or customer effort increases.
 

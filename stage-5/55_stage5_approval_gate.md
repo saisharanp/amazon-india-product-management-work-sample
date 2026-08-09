@@ -12,7 +12,7 @@
 | Decision ID | Decision | Recommendation | Reviewer decision |
 |---|---|---|---|
 | V01 | Validation protocol | Approve E1–E4 research and replay plan | Awaiting approval |
-| V02 | Measurement contract | Approve case-linked metrics, cohort fields, and guardrails | Awaiting approval |
+| V02 | Measurement contract | Approve confirmed-resolution-within-SLA primary metric, case-linked cohort fields, and guardrails | Awaiting approval |
 | V03 | Pilot readiness | Proceed to controlled pilot only after real baseline, policy, support, and rollback checks pass | Awaiting approval |
 | V04 | Scale gate | Keep scale blocked until real pilot evidence passes primary and guardrail criteria | Blocked |
 

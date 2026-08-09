@@ -6,7 +6,7 @@
 
 ## Executive summary
 
-The proposed scorecard structure shows how to compare the current experience with a unified exception-resolution experience. In the synthetic six-case comparison, the proposed arm improves repeat-contact and resolution-time examples while keeping incorrect recovery at zero and reducing SLA breaches. This is sufficient to demonstrate a **go/no-go decision method**, not to claim product impact.
+The proposed scorecard structure shows how to compare the current experience with a delivered-but-not-received resolution layer. In the synthetic six-case comparison, the proposed arm improves repeat-contact and resolution-time examples while keeping incorrect recovery at zero and reducing SLA breaches. This is sufficient to demonstrate a **go/no-go decision method**, not to claim product impact.
 
 Recommendation: proceed to a controlled pilot only after real baseline instrumentation, policy validation, support readiness, and rollback testing are complete. Do not scale from this synthetic readout.
 
@@ -14,6 +14,7 @@ Recommendation: proceed to a controlled pilot only after real baseline instrumen
 
 | Metric | Baseline example | Proposed example | Direction | Interpretation |
 |---|---:|---:|---|---|
+| Confirmed resolution within SLA | Not observed | Not observed | Pending | Primary outcome requires real baseline and pilot data |
 | Repeat contacts per case | 2.50 | 0.83 | Better | Fewer repeated explanations in the proposed flow |
 | Confirmed-resolution time, hours | 47.83 | 26.67 | Better | Faster example closure |
 | “Understood next” rate | 0% | 100% | Better | Synthetic proxy for comprehension |
@@ -47,5 +48,5 @@ Recommendation: proceed to a controlled pilot only after real baseline instrumen
 
 ## Decision
 
-**Synthetic decision:** the scorecard logic recommends advancing to controlled-pilot preparation.
+**Synthetic decision:** the workbook formulas pass illustrative thresholds and recommend controlled-pilot preparation. Because the target and inputs are synthetic, this is a mechanics demonstration only; it does not authorize customer exposure or scale.
 **Portfolio decision:** keep scale blocked until real pilot evidence is collected and approved.

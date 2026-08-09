@@ -21,7 +21,7 @@
 | Q3 | Can customers choose an eligible recovery? | E2 task with delivery/refund scenarios | 75% choose the safe path |
 | Q4 | Can agents resolve using the shared case state? | E3 agent walkthrough | No P0 workflow or parity issue |
 | Q5 | Can the state model represent prior incidents? | E4 historical replay | 90% of cases represented without unsafe fallback |
-| Q6 | Does the pilot improve outcomes? | E5 controlled pilot | Primary metric improves without guardrail breach |
+| Q6 | Does the pilot improve confirmed resolution within the promised SLA? | E5 controlled pilot | Primary metric improves without guardrail or support-capacity breach |
 
 ## 3. Participants and sample
 
@@ -29,7 +29,8 @@
 
 - 8–10 frequent Amazon India shoppers for E1.
 - 8–10 additional shoppers for E2, including prior delivery or refund exception experience.
-- Mix Prime/non-Prime, high-value, time-sensitive, and remote-area delivery contexts.
+- Mix Prime/non-Prime and approved regional or fulfilment contexts.
+- Exclude fraud investigations, unresolved identity/payment risk, high-value cases above the approved policy threshold, repeated-claim cases, and policy ambiguity from automated recovery.
 
 ### Agent research
 
@@ -43,10 +44,10 @@
 
 ## 4. Customer tasks
 
-1. Find out why the order is not arriving even though it is marked delivered.
+1. Report non-receipt from an order marked delivered.
 2. Identify the current state and who owns the next action.
 3. Find the next update time.
-4. Choose whether to wait, request replacement, or request refund.
+4. Choose whether to continue investigation, request an eligible recovery, or contact human support.
 5. Explain what will happen to the money or replacement.
 6. Re-open the case after an outcome and describe what you expect next.
 
@@ -58,13 +59,13 @@ Capture task success, time on task, facilitator intervention, selected option, c
 
 - Compare comprehension and recovery-choice success against the stated thresholds.
 - Code confusion by state, owner, timeline, recovery copy, and refund/replacement timing.
-- Compare baseline and proposed-experience arms on repeat contacts, resolution hours, understanding, incorrect recovery, and SLA breach.
+- Compare baseline and proposed-experience arms on confirmed resolution within SLA, repeat contacts, resolution hours, understanding, incorrect recovery, and support handle time.
 - Segment by Prime status, order value band, region, event conflict, and human escalation.
 - Review guardrails before interpreting primary metrics.
 
 ## 7. Decision rules
 
-- **Advance to controlled pilot:** Q1–Q5 thresholds pass, no critical policy/accessibility issue exists, and the operating team can support the cohort.
+- **Advance to controlled pilot:** Q1–Q5 thresholds pass, no critical policy/accessibility issue exists, the operating team can support the cohort, and the authority map is approved.
 - **Iterate:** customers understand the problem but struggle with recovery selection, refund timing, or ownership.
 - **Pause:** event accuracy is unreliable, recovery is unsafe, support cannot see the same case state, or any critical guardrail is breached.
 - **Do not scale from this pack:** the synthetic replay demonstrates analysis mechanics only; scale requires real pilot evidence.

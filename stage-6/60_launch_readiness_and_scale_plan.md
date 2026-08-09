@@ -28,9 +28,17 @@
 | Rollout | Feature flag, cohort exclusion, and fallback behavior are tested | Engineering | Flag and fallback evidence | Yes |
 | Customer communication | Copy explains what is known, what is pending, and the next action | UX / Product | Content review | No |
 
+## Initial pilot boundary
+
+- One approved delivery region or fulfilment context.
+- Delivered-but-not-received cases with an explicit customer report and reliable `case_id` event linkage.
+- Balanced Prime/non-Prime representation where permitted.
+- Exclude fraud investigations, unresolved identity/payment risk, high-value cases above the approved policy threshold, repeated-claim cases, and policy ambiguity from automated recovery.
+- Use a matched baseline or holdout; the first pilot presents existing policy decisions and does not independently execute financial recovery.
+
 ## Operating cadence
 
-- **Daily during pilot:** reconcile volume, event linkage, state conflicts, recovery outcomes, SLA breaches, support contacts, and sampled customer-facing accuracy.
+- **Daily during pilot:** reconcile volume, event linkage, state conflicts, confirmed resolution within SLA, recovery outcomes, support handle time, and sampled customer-facing accuracy.
 - **Weekly:** review cohort performance, open incidents, support capacity, experiment quality, and whether the next phase is safe.
 - **Incident review:** P0/P1 incidents trigger immediate pause or rollback; P2 issues receive an owner and next-review date.
 - **Evidence rule:** if a required field is missing or synthetic, the decision remains `Stay blocked`.

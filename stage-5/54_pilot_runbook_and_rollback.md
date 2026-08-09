@@ -8,6 +8,7 @@
 ### Before exposure
 
 - Confirm cohort rules, exclusions, baseline window, feature flag, and support queue.
+- Confirm the approved cohort is limited to delivered-but-not-received reports with reliable event linkage in one region or fulfilment context; high-risk and policy-ambiguous cases route to human review.
 - Validate event linkage, recovery eligibility, owner/SLA, analytics, alerting, and rollback in a non-customer environment.
 - Train support on the shared `case_id`, normalized states, customer copy, and escalation script.
 - Publish the daily review sheet with volume, conflict, recovery, SLA, and support metrics.
@@ -16,13 +17,13 @@
 
 1. Reconcile cases created, cases exposed, and cases with linked analytics events.
 2. Review event conflicts, stale reads, duplicate actions, and policy fallbacks.
-3. Compare proposed-arm metrics with the baseline/control.
+3. Compare confirmed resolution within SLA, repeat contacts, and resolution time with the baseline/control.
 4. Sample resolved cases for customer-facing accuracy.
 5. Record incidents, owner, mitigation, and decision in the approval log.
 
 ### Pilot exit
 
-Exit to an extended pilot only when primary metrics improve, no critical guardrail breaches occur, support capacity is stable, and the full readiness checklist is signed. Exit to iteration when comprehension or recovery choice fails. Exit to rollback when customer truth, financial safety, or privacy is at risk.
+Exit to an extended pilot only when confirmed resolution within SLA improves, secondary metrics do not regress, no critical guardrail breaches occur, support capacity is stable, and the full readiness checklist is signed. Exit to iteration when comprehension or recovery choice fails. Exit to rollback when customer truth, financial safety, privacy, or high-risk routing is compromised.
 
 ## 2. Incident severity
 

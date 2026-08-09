@@ -78,8 +78,8 @@ Create a structured case record, owner, SLA, escalation rule, and shared resolut
 
 ## Strategy recommendation
 
-Select Option A as the strategic direction, but define the first MVP around **one high-severity exception type**—for example, “delivered but not received” or “refund pending after cancellation.” Use Option B or D as the initial vertical slice depending on technical feasibility.
+Select Option A as the strategic direction and define the first MVP specifically around **customer-reported delivered but not received**. Use Option D as an enabling workstream and retain refund transparency as an adjacent follow-on, not as a competing MVP in this case study.
 
 ## Decision required
 
-Approve Option A as the strategic direction and select the first exception type for Stage 3 solution discovery.
+Approve Option A as the strategic direction and approve customer-reported delivered-but-not-received as the first exception type for Stage 3 solution discovery.

@@ -8,21 +8,21 @@
 
 Amazon India’s public product promise emphasizes convenience, selection, payments, delivery tracking, easy returns, and customer support. The Stage 1 evidence suggests that the largest trust failures occur when an order enters an exception state and the customer cannot reconcile the system status with reality.
 
-The problem is therefore framed around **exception clarity and recovery**, not around one isolated delivery or refund defect.
+The discovery problem is framed around **exception clarity and recovery**, but the product decision intentionally narrows the first MVP to one exception type: delivered but not received.
 
 ## Candidate problem statements
 
-### P1 — Unclear delivery exception
+### P1 — Delivered but not received
 
-For Amazon India customers whose package is delayed, missing, incorrectly marked delivered, or cancelled, the experience does not consistently explain what happened, what evidence exists, or what will happen next. Customers repeat contacts, wait without a reliable deadline, or escalate publicly.
+For Amazon India customers whose package is marked delivered but not received, the experience does not consistently explain what happened, what evidence exists, who owns the investigation, or what will happen next. Customers repeat contacts, wait without a reliable deadline, or escalate publicly.
 
 ### P2 — Unowned support case
 
-For customers contacting Amazon India about a delivery, return, or refund exception, support interactions can feel fragmented because the customer cannot see one accountable owner, one case timeline, or a consistent next action across channels.
+For customers contacting Amazon India about a delivered-but-not-received case, support interactions can feel fragmented because the customer cannot see one accountable owner, one case timeline, or a consistent next action across channels.
 
 ### P3 — Opaque refund or return outcome
 
-For customers expecting a refund or replacement after a failed order, Amazon India does not always make the eligibility, amount, deductions, settlement stage, or expected completion date easy to understand.
+For customers who become eligible for a refund or replacement after a delivered-but-not-received investigation, Amazon India does not always make the eligibility, settlement stage, or expected completion date easy to understand.
 
 ### P4 — Low-confidence delivery handoff
 
@@ -44,7 +44,7 @@ These are hypotheses requiring internal data and user research.
 
 ## Recommended problem to solve
 
-> **For Amazon India customers whose order enters a delivery, return, or refund exception, the current experience makes it difficult to understand what happened, reach an accountable owner, and predict the next resolution step. This creates repeated effort, financial anxiety, and avoidable loss of trust.**
+> **For Amazon India customers whose order is marked delivered but not received, the current experience makes it difficult to understand what happened, reach an accountable owner, and predict the next resolution step. This creates repeated effort, financial anxiety, and avoidable loss of trust.**
 
 ## Why this problem
 
@@ -52,7 +52,7 @@ These are hypotheses requiring internal data and user research.
 - It affects high-severity moments involving delivery, money, and trust.
 - It connects several repeated themes: delivery reliability, support consistency, and refund clarity.
 - It can be measured through operational and product outcomes.
-- It creates a coherent opportunity for product, operations, support, and payments teams to solve together.
+- It creates a bounded opportunity for product, operations, support, delivery, and payments teams to solve together.
 
 ## Non-goals
 
@@ -64,4 +64,4 @@ These are hypotheses requiring internal data and user research.
 
 ## Stage 2 decision
 
-Recommend prioritizing P1 + P2 as the primary opportunity area, with P3 as a tightly related backup or MVP slice.
+Recommend P1 as the primary product problem. Treat P2 as a required enabler, P3 as an adjacent follow-on, and P5 as out of scope for this case study.

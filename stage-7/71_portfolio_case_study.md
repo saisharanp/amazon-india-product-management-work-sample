@@ -23,11 +23,11 @@ I used a traceable lifecycle rather than treating research, design, delivery, an
 
 ## Key product decision
 
-Focus the MVP on **delivered but not received**, where delivery truth, support ownership, and recovery confidence intersect. The MVP does not rebuild fulfilment or payment systems; it connects authoritative states into a customer-readable case experience.
+Focus the MVP on **customer-reported delivered but not received**, where delivery truth, support ownership, and recovery confidence intersect. The MVP does not rebuild fulfilment or payment systems; it connects authoritative states into a customer-readable case experience. High-risk or policy-ambiguous cases route to human review, and financial or replacement execution remains in the existing owning workflow.
 
 ## Solution
 
-The proposed experience adds an exception banner, unified timeline, recovery options, and resolution-status loop to the order-detail flow. It is designed around `case_id`, source-of-truth rules, policy eligibility, customer-readable states, and a safe fallback to support.
+The proposed experience adds an exception banner, unified timeline, owner/next-update promise, policy-validated recovery options, and resolution-status loop to the order-detail flow. It is designed around `case_id`, source-of-truth rules, conflict-to-investigation handling, customer-readable states, and a safe fallback to support.
 
 ## Frameworks demonstrated
 
@@ -41,7 +41,7 @@ The proposed experience adds an exception banner, unified timeline, recovery opt
 | How to deliver | Dual-track Agile, RACI, dependency mapping, RAID-style risk review |
 | How to validate | Usability testing, assumption testing, experiment design, synthetic case replay |
 | Whether to launch | Go/no-go gate, phased rollout, guardrails, rollback plan |
-| Whether to scale | Cohort analysis, primary metrics, guardrails, operating review |
+| Whether to scale | Controlled cohort analysis, confirmed-resolution-within-SLA primary metric, guardrails, operating review |
 
 ## Tools demonstrated
 
@@ -55,7 +55,7 @@ The proposed experience adds an exception banner, unified timeline, recovery opt
 
 ## What success would require in production
 
-The worksample defines the measurement and decision system, but does not supply live Amazon telemetry. A real team would need to establish a baseline, instrument exposure and outcomes, reconcile source conflicts, run a controlled cohort, monitor safety alerts, and obtain cross-functional approval before scale.
+The worksample defines the measurement and decision system, but does not supply live Amazon telemetry. A real team would need to establish a baseline and holdout, instrument exposure and outcomes, reconcile source conflicts, run the approved narrow cohort, monitor safety alerts and support capacity, and obtain cross-functional approval before scale.
 
 ## Portfolio takeaway
 

@@ -30,6 +30,7 @@
 | R6 | Timeline increases anxiety | Comprehension or trust falls in E1/E2 | Simplify copy; progressive detail; human escalation | Product/Research | Iterate before pilot |
 | R7 | Support handle time rises | Agent workflow requires repeated lookup | Shared case read model and training | Support Ops | Hold scale until parity is restored |
 | R8 | Instrumentation cannot link outcomes | Missing `case_id` or event mismatch | Contract validation and analytics reconciliation | Analytics | No pilot decision without trusted data |
+| R9 | Fraud or repeat-claim cases are exposed to automated recovery | Risk signal or policy ambiguity is missed | Exclude from first pilot automation and route to human review | Operations/Policy | Pause exposure if high-risk cases bypass review |
 
 ## Kill criteria
 
@@ -37,6 +38,7 @@ Stop or roll back the customer-facing hub if any of the following occurs:
 
 - a customer receives a duplicate refund or replacement;
 - the experience displays a false final outcome;
+- a high-risk or fraud-review case receives an automated recovery;
 - event conflicts make the current state materially misleading;
 - support cannot access the same case state;
 - privacy, security, or accessibility review finds a release-blocking issue;

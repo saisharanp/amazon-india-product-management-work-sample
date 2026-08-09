@@ -19,10 +19,10 @@
 Scale is eligible only when all are true:
 
 1. The baseline/control and cohort definition are documented.
-2. Primary outcomes improve against the approved target or have a signed exception rationale.
+2. Confirmed resolution within the promised SLA improves against the approved baseline or holdout; repeat contacts and comprehension do not regress.
 3. Incorrect recovery, false final outcome, and duplicate financial action are zero.
 4. Event conflict, SLA breach, handle time, reopen rate, and linkage completeness are within approved limits.
-5. A sampled-case review confirms customer-facing truth and actionable next steps.
+5. A sampled-case review confirms customer-facing truth and actionable next steps, including correct human routing for high-risk or ambiguous cases.
 6. Support, Payments, Delivery, Analytics, Engineering, Product, and Privacy/Security approvals are recorded where applicable.
 7. No unresolved P0/P1 incident affects interpretation.
 

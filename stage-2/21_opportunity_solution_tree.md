@@ -1,6 +1,6 @@
 # Stage 2 — Opportunity Solution Tree
 
-**Desired outcome:** Increase trust and repeat use after Amazon India order exceptions.  
+**Desired outcome:** Increase trust and confirmed resolution within SLA after Amazon India delivered-but-not-received cases.
 **Status:** Awaiting approval
 
 ## Outcome tree
@@ -40,15 +40,15 @@ Desired outcome
 
 ## Recommended solution direction for Stage 3
 
-Focus on a **unified post-purchase exception experience** composed of:
+Focus on a **delivered-but-not-received resolution layer** composed of:
 
 1. One customer-visible event timeline.
 2. One accountable case owner or queue.
 3. One explicit next action and deadline.
-4. A clear recovery choice: delivery recovery, replacement, or refund.
+4. A policy-validated recovery choice or human-review path.
 5. A transparent refund/replacement status when selected.
 
-Keep delivery prevention and discovery controls as later or adjacent workstreams unless internal data shows they are the dominant driver.
+Keep delayed delivery, damaged/wrong item, refund-pending, return disputes, delivery prevention, and discovery controls as later or adjacent workstreams unless internal data shows they are the dominant driver.
 
 ## Assumption map
 

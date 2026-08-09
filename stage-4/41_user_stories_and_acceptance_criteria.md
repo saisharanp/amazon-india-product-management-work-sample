@@ -55,6 +55,7 @@
 - **Given** recovery eligibility is available, **when** the customer opens options, **then** every displayed option includes outcome, expected date, and amount or delivery timing where applicable.
 - **Given** an option is ineligible, **when** the eligibility response is returned, **then** the option is not selectable and the customer receives a plain-language reason or support path.
 - **Given** a customer selects an option, **when** the request is submitted, **then** the system confirms the selected outcome before processing.
+- During the first pilot, financial or replacement actions are executed only by the existing owning workflow after policy confirmation; the new experience does not independently authorize them.
 
 ### UR-06 — Prevent duplicate recovery (P0)
 
@@ -83,6 +84,7 @@
 **Acceptance criteria:**
 
 - High-value, deadline-sensitive, repeated-contact, policy-ambiguous, and missed-SLA rules route to support.
+- Fraud investigations, unresolved identity/payment risk, and repeated non-receipt claims route to human review.
 - The support action carries the existing `case_id` and does not require the customer to repeat the issue summary.
 - Contact initiation is tracked as an event linked to the case.
 
@@ -114,3 +116,5 @@ Every state change, owner change, eligibility decision, recovery selection, and 
 6. Customer submits the same report from app and web.
 7. SLA expires without an owner update.
 8. Customer reopens a case after refund initiation but before settlement.
+9. Customer report is linked to a high-risk or fraud-review case.
+10. Delivery scan, customer report, and partner evidence conflict.

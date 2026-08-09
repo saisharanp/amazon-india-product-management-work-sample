@@ -32,7 +32,7 @@ Generate the proposed state and recovery recommendation without exposing it to c
 
 ### Gate D — Limited pilot
 
-Expose the experience to a small, monitored cohort of delivered-but-not-received cases. Retain a comparable baseline or control. Provide a visible support fallback and daily incident review. Exit when primary metrics move in the expected direction without guardrail breach.
+Expose the experience to a small, monitored cohort of eligible delivered-but-not-received cases with reliable event linkage in one approved delivery region or fulfilment context. Balance Prime/non-Prime representation, retain a comparable baseline or holdout, and keep financial/replacement execution in the existing owning workflow. Provide a visible support fallback and daily incident review. Exit when confirmed resolution within the promised SLA improves without guardrail or support-capacity breach.
 
 ### Gate E — Scale decision
 
@@ -40,10 +40,11 @@ Expand by cohort only after Product, Operations, Engineering, Support, Payments,
 
 ## 3. Pilot cohort design
 
-- Start with one delivery region and a balanced mix of Prime/non-Prime customers.
-- Exclude fraud investigations, high-value orders above the agreed policy threshold, and cases with unresolved identity or payment risk from automated recovery.
-- Hold out a comparable baseline or control to compare repeat contacts, resolution time, and recovery completion.
-- Review daily: event conflicts, false-positive rate, missed SLAs, duplicate actions, support transfer rate, and customer feedback.
+- Start with one approved delivery region or fulfilment context and a balanced mix of Prime/non-Prime customers.
+- Include only delivered-but-not-received cases with reliable event linkage and an explicit customer report.
+- Exclude fraud investigations, unresolved identity/payment risk, high-value orders above the agreed policy threshold, repeated-claim cases, and policy ambiguity from automated recovery.
+- Hold out a comparable baseline or control to compare confirmed resolution within SLA, repeat contacts, resolution time, and recovery completion.
+- Review daily: event conflicts, false-positive rate, missed SLAs, duplicate actions, support handle time, support transfer rate, and customer feedback.
 
 ## 4. RACI-style decision ownership
 
@@ -67,7 +68,7 @@ P0 acceptance criteria pass; event conflict rate is below the agreed threshold; 
 
 ### Scale entry
 
-Repeat contacts per case or comprehension improves versus baseline; no critical incorrect recovery; no unresolved critical incident; missed-SLA recovery is operationally staffed; analytics and alerting are live.
+Confirmed resolution within SLA improves versus baseline or holdout; repeat contacts and comprehension do not regress; no critical incorrect recovery; no unresolved critical incident; missed-SLA recovery is operationally staffed; analytics and alerting are live.
 
 ## 6. Rollback
 

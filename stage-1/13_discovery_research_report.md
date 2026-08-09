@@ -12,7 +12,7 @@ Across the accessible sample, delivery-status accuracy, delivery-agent contactab
 
 The highest-confidence discovery opportunity is therefore:
 
-> **Make delivery and post-purchase exceptions legible, owned, and recoverable from one case timeline.**
+> **Make delivery exceptions legible, owned, and recoverable from one case timeline; validate delivered-but-not-received as the first bounded slice.**
 
 This is a discovery recommendation, not a final solution decision. It requires validation with Amazon’s internal delivery, support, refund, and retention data.
 
@@ -134,12 +134,12 @@ Detailed personas are in [14_user_personas.md](14_user_personas.md). The primary
 
 ## Recommendation for Stage 2
 
-Proceed to problem definition with the primary opportunity focused on **post-purchase exception transparency and ownership**, while keeping discovery integrity as a backup opportunity.
+Proceed to problem definition with the primary opportunity focused on **delivered-but-not-received exception transparency and ownership**. Keep refund, return, delayed-delivery, and discovery-integrity themes as adjacent opportunities rather than combining them into the first MVP.
 
 ## Approval required
 
 1. Approve the primary problem area.
-2. Confirm whether the scope should focus on delivery exceptions, refund exceptions, or one combined post-purchase case experience.
+2. Approve delivered-but-not-received as the first product slice, with adjacent refund, return, delayed-delivery, and discovery themes retained for later validation.
 3. Approve proceeding to Stage 2 problem definition and opportunity assessment.
 
 **Status: Awaiting approval.**

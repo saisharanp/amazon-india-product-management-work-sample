@@ -1,17 +1,17 @@
 # Stage 2 — Recommended Opportunity Brief
 
 **Product:** Amazon India  
-**Recommended opportunity:** Unified post-purchase exception resolution  
+**Recommended opportunity:** Delivered-but-not-received resolution layer
 **Status:** Awaiting approval
 
 ## Recommendation
 
-Prioritize a unified post-purchase exception experience that helps customers:
+Prioritize a narrow resolution layer for delivered-but-not-received cases that helps customers:
 
 1. Understand what happened.
 2. Know who owns the case.
 3. Choose a recovery path.
-4. See the expected refund, replacement, or delivery outcome.
+4. See a policy-validated recovery outcome without independently executing a financial action.
 
 The first MVP should focus on one exception type to limit integration risk. The recommended starting point is **delivered but not received**, because it combines the strongest delivery, support, trust, and escalation signals.
 
@@ -24,8 +24,9 @@ The first MVP should focus on one exception type to limit integration risk. The 
 
 ## Target segment
 
-Primary: trust-sensitive exception resolvers, especially frequent, high-value, Prime, remote-area, and time-sensitive buyers.  
-Secondary: convenience-led repeat buyers whose retention depends on reliable recovery.
+Discovery segment: trust-sensitive exception resolvers, including frequent, Prime, remote-area, high-value, and time-sensitive buyers.
+
+Initial pilot segment: eligible delivered-but-not-received cases with reliable event linkage in one approved delivery region or fulfilment context, balanced for Prime/non-Prime representation. Exclude fraud investigations, unresolved identity/payment risk, high-value cases above the approved policy threshold, and policy-ambiguous cases from automated recovery.
 
 ## Expected value
 
@@ -40,7 +41,7 @@ Secondary: convenience-led repeat buyers whose retention depends on reliable rec
 - Lower repeat-contact volume.
 - Lower escalation and support handling cost.
 - Better recovery satisfaction.
-- Reduced trust and membership churn risk.
+- A testable hypothesis about trust and membership churn risk; no quantified impact is claimed without internal data.
 
 ### Strategic value
 
@@ -48,18 +49,19 @@ Protects Amazon’s core convenience proposition by making failure recovery feel
 
 ## MVP hypothesis
 
-> If Amazon shows one accurate exception timeline, one accountable owner, and one clear next action for “delivered but not received” cases, then repeat contacts will decrease and post-resolution trust will improve.
+> If Amazon shows one accurate exception timeline, one accountable owner, and one clear next action for eligible “delivered but not received” cases, then the share of cases reaching confirmed resolution within the promised SLA will improve without increasing unsafe recovery or support burden.
 
 ## Success metrics
 
 ### Primary
 
+- Confirmed resolution within promised SLA
+
+### Secondary customer and operational outcomes
+
 - Repeat contacts per exception case
 - Time to confirmed resolution
 - Recovery completion rate
-
-### Customer
-
 - Post-resolution CSAT
 - “I understood what would happen next” agreement
 - Trust recovery / likelihood to purchase again
@@ -84,7 +86,7 @@ Protects Amazon’s core convenience proposition by making failure recovery feel
 
 - Data sources disagree about status.
 - A unified timeline exposes internal inconsistency.
-- Customers may prefer human contact for high-value incidents.
+- Customers may prefer human contact for high-value incidents; those cases are excluded from automated recovery in the first pilot.
 - More evidence or verification could add delivery friction.
 
 ## Options considered
@@ -98,8 +100,8 @@ Protects Amazon’s core convenience proposition by making failure recovery feel
 
 ## Approval required
 
-1. Approve the unified post-purchase exception experience as the opportunity.
-2. Approve “delivered but not received” as the first MVP exception type, or choose refund-pending instead.
+1. Approve delivered-but-not-received resolution as the primary MVP opportunity.
+2. Approve the initial pilot cohort exclusions and the no-independent-financial-action rule.
 3. Approve proceeding to Stage 3 solution concepts and prototype discovery.
 
 **Status: Awaiting approval.**

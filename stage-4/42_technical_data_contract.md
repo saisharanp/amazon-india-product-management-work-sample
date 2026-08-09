@@ -14,9 +14,11 @@
   "delivery_id": "DLV-8842",
   "customer_state": "RECOVERY_AVAILABLE",
   "state_reason": "Delivery scan exists but customer reported non-receipt",
+  "authority_status": "DELIVERY_SCAN_CONFIRMED_CUSTOMER_RECEIPT_UNCONFIRMED",
   "owner": {"type": "QUEUE", "display_label": "Amazon Delivery Support"},
   "next_update_at": "2026-08-09T18:00:00+05:30",
   "recovery_options": ["DELIVERY_RETRY", "REPLACEMENT", "REFUND"],
+  "recovery_execution_mode": "EXISTING_POLICY_WORKFLOW",
   "selected_recovery": null,
   "last_updated_at": "2026-08-09T10:45:00+05:30",
   "version": 3,
@@ -63,14 +65,15 @@ The orchestration layer must deduplicate on `dedupe_key` and retain the first ac
 
 | Data element | Authoritative system | Fallback behavior |
 |---|---|---|
-| Delivery scan | Delivery event service | Show investigation state if event freshness or confidence fails |
+| Customer non-receipt report | Customer order surface / support case workflow | Create or retrieve one case; do not infer non-receipt without a report |
+| Delivery scan | Delivery event service | A scan does not prove customer receipt; show investigation state if event freshness or confidence fails |
 | Case owner and SLA | Support case workflow | Show fallback contact path if absent |
-| Recovery eligibility | Policy decision service | Do not show selectable options on timeout |
+| Recovery eligibility | Policy decision service | Do not show selectable options on timeout; route to human support |
 | Replacement availability | Inventory service | Recalculate at confirmation; show unavailable if changed |
 | Refund initiation | Payment/refund workflow | Show processing state, never settled |
 | Refund settlement | Payment settlement record | Keep case in progress until confirmation |
 
-When sources conflict, the customer surface uses the safest normalized state, records the conflict for agents, and emits `case_data_conflict_detected` for monitoring.
+When sources conflict, the customer surface uses an honest investigation state or the last safe normalized state, records the conflict for agents, blocks independent financial execution, and emits `case_data_conflict_detected` for monitoring.
 
 ## 5. Customer read model
 

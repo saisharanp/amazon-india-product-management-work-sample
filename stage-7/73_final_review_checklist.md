@@ -13,6 +13,7 @@
 - [ ] The problem statement connects to the opportunity scoring and MVP choice.
 - [ ] Figma screens, PRD, user stories, data contract, and validation plan describe the same MVP.
 - [ ] Metrics and guardrails measure the original customer problem and safety risks.
+- [ ] Confirmed resolution within the promised SLA is the primary outcome; repeat contacts and comprehension are secondary/guardrail context.
 
 ## Delivery and operations
 
@@ -20,6 +21,7 @@
 - [ ] Dependencies, risks, support readiness, and rollback are documented.
 - [ ] GitHub issues provide an executable queue with labels and assignees.
 - [ ] Real pilot evidence is required before broad scale.
+- [ ] High-risk, fraud-review, identity/payment-risk, and policy-ambiguous cases have a human-review path.
 
 ## Final decision
 

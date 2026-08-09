@@ -5,15 +5,15 @@
 
 ## Core job
 
-> When an Amazon India order goes wrong, help me understand what happened, know who owns the issue, and recover my money or order without repeatedly explaining myself.
+> When my Amazon India order says delivered but I did not receive it, help me understand what happened, know who owns the investigation, and reach a safe recovery without repeatedly explaining myself.
 
 ## Functional jobs
 
 | Job | Trigger | Desired outcome | Current friction signal |
 |---|---|---|---|
-| Verify delivery status | Status says delivered, delayed, or cancelled | Know whether the order is physically on track | Status may conflict with reality |
-| Report non-receipt | Package is missing or handoff is disputed | Open the correct case immediately | Escalation path can be unclear |
-| Recover the order | Item is delayed or incorrectly delivered | Get delivery, replacement, or refund | Customer may receive “wait” or conflicting instructions |
+| Verify delivery status | Status says delivered but the package is missing | Know whether the order was actually handed off | Status may conflict with reality |
+| Report non-receipt | Package is missing or handoff is disputed | Open one correct case immediately | Escalation path can be unclear |
+| Recover the order | Non-receipt investigation is active | Reach a policy-validated recovery or human owner | Customer may receive “wait” or conflicting instructions |
 | Understand refund | Refund is issued or expected | Know amount, deduction, source, and date | “Issued” may not mean settled |
 | Get human help | Self-service does not resolve issue | Reach an accountable owner | Chat/call availability and ownership concerns |
 | Protect a deadline | Event or high-value purchase is time-sensitive | Escalate before the deadline fails | Bulk-order cancellation signal |
@@ -34,7 +34,7 @@
 ## Desired outcomes
 
 1. I know the next update time without chasing support.
-2. I understand whether my case is being investigated, recovered, or refunded.
+2. I understand whether my case is being investigated, recovered, or resolved.
 3. I know exactly how much money I will receive and when.
 4. I do not repeat the same story to multiple agents.
 5. I can choose the best recovery option for my situation.
