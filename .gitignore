@@ -1,0 +1,4 @@
+.build/
+.build2/
+stage-0/*.inspect.ndjson
+stage-0/*_preview.png

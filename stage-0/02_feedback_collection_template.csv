@@ -1,0 +1,3 @@
+feedback_id,product,platform,market,source_type,source_name,source_url,review_or_post_date,access_date,star_rating,review_title,review_text_or_paraphrase,language,journey_stage,theme,subtheme,sentiment,severity,evidence_type,likely_locus,user_segment,category,impact_signal,requested_change,privacy_redacted,analyst_notes
+AMZ-0001,Amazon India,Google Play,India,App Store review,Google Play,,,,,,,,,,,,,,,,,,Yes,
+AMZ-0002,Amazon India,iOS App Store,India,App Store review,Apple App Store,,,,,,,,,,,,,,,,,,Yes,
