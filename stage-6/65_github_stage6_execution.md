@@ -11,3 +11,7 @@ The issues below translate the launch-readiness package into an executable produ
 | [S05 — Keep broad scale blocked until real evidence passes](https://github.com/saisharanp/amazon-india-product-management-work-sample/issues/22) | Scale decision | Approved decision record; scale stays blocked until criteria pass | Open |
 
 The GitHub issue queue is the project-management execution layer; the markdown and workbook artifacts are the reviewable evidence layer. Update issue status as evidence is produced.
+
+## Final handoff
+
+The end-stage portfolio package is in `stage-7/` and begins with `70_executive_readout.md`.
