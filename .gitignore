@@ -8,3 +8,5 @@ stage-2/*.inspect.ndjson
 stage-2/*_preview.png
 stage-3/*.inspect.ndjson
 stage-3/*_preview.png
+stage-4/*.inspect.ndjson
+stage-4/*_preview.png
